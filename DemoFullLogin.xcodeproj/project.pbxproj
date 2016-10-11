@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D9F39B591D0A3E6400C07A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B581D0A3E6400C07A3C /* AppDelegate.swift */; };
-		D9F39B5B1D0A3E6400C07A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B5A1D0A3E6400C07A3C /* ViewController.swift */; };
+		D9F39B5B1D0A3E6400C07A3C /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B5A1D0A3E6400C07A3C /* EmailLoginViewController.swift */; };
 		D9F39B5E1D0A3E6400C07A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F39B5C1D0A3E6400C07A3C /* Main.storyboard */; };
 		D9F39B611D0A3E6400C07A3C /* DemoFullLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B5F1D0A3E6400C07A3C /* DemoFullLogin.xcdatamodeld */; };
 		D9F39B631D0A3E6400C07A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F39B621D0A3E6400C07A3C /* Assets.xcassets */; };
 		D9F39B661D0A3E6400C07A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F39B641D0A3E6400C07A3C /* LaunchScreen.storyboard */; };
 		D9F39B711D0A3E6500C07A3C /* DemoFullLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B701D0A3E6500C07A3C /* DemoFullLoginTests.swift */; };
 		D9F39B7C1D0A3E6500C07A3C /* DemoFullLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B7B1D0A3E6500C07A3C /* DemoFullLoginUITests.swift */; };
+		D9F39B8A1D0A3F4E00C07A3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9F39B891D0A3F4E00C07A3C /* GoogleService-Info.plist */; };
+		D9F39B8C1D0A461600C07A3C /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B8B1D0A461600C07A3C /* FacebookLoginViewController.swift */; };
+		D9F39B8E1D0A462300C07A3C /* TwitterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B8D1D0A462300C07A3C /* TwitterLoginViewController.swift */; };
+		D9F39B901D0A463300C07A3C /* GoogleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B8F1D0A463300C07A3C /* GoogleLoginViewController.swift */; };
+		D9F39B921D0A466100C07A3C /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F39B911D0A466100C07A3C /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		D9F39B551D0A3E6400C07A3C /* DemoFullLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFullLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F39B581D0A3E6400C07A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9F39B5A1D0A3E6400C07A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9F39B5A1D0A3E6400C07A3C /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
 		D9F39B5D1D0A3E6400C07A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9F39B601D0A3E6400C07A3C /* DemoFullLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoFullLogin.xcdatamodel; sourceTree = "<group>"; };
 		D9F39B621D0A3E6400C07A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		D9F39B771D0A3E6500C07A3C /* DemoFullLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFullLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F39B7B1D0A3E6500C07A3C /* DemoFullLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFullLoginUITests.swift; sourceTree = "<group>"; };
 		D9F39B7D1D0A3E6500C07A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F39B891D0A3F4E00C07A3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9F39B8B1D0A461600C07A3C /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
+		D9F39B8D1D0A462300C07A3C /* TwitterLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginViewController.swift; sourceTree = "<group>"; };
+		D9F39B8F1D0A463300C07A3C /* GoogleLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginViewController.swift; sourceTree = "<group>"; };
+		D9F39B911D0A466100C07A3C /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +110,16 @@
 			isa = PBXGroup;
 			children = (
 				D9F39B581D0A3E6400C07A3C /* AppDelegate.swift */,
-				D9F39B5A1D0A3E6400C07A3C /* ViewController.swift */,
+				D9F39B5A1D0A3E6400C07A3C /* EmailLoginViewController.swift */,
+				D9F39B8B1D0A461600C07A3C /* FacebookLoginViewController.swift */,
+				D9F39B8D1D0A462300C07A3C /* TwitterLoginViewController.swift */,
+				D9F39B8F1D0A463300C07A3C /* GoogleLoginViewController.swift */,
+				D9F39B911D0A466100C07A3C /* MainMenuViewController.swift */,
 				D9F39B5C1D0A3E6400C07A3C /* Main.storyboard */,
 				D9F39B621D0A3E6400C07A3C /* Assets.xcassets */,
 				D9F39B641D0A3E6400C07A3C /* LaunchScreen.storyboard */,
 				D9F39B671D0A3E6400C07A3C /* Info.plist */,
+				D9F39B891D0A3F4E00C07A3C /* GoogleService-Info.plist */,
 				D9F39B5F1D0A3E6400C07A3C /* DemoFullLogin.xcdatamodeld */,
 			);
 			path = DemoFullLogin;
@@ -233,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F39B661D0A3E6400C07A3C /* LaunchScreen.storyboard in Resources */,
+				D9F39B8A1D0A3F4E00C07A3C /* GoogleService-Info.plist in Resources */,
 				D9F39B631D0A3E6400C07A3C /* Assets.xcassets in Resources */,
 				D9F39B5E1D0A3E6400C07A3C /* Main.storyboard in Resources */,
 			);
@@ -259,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F39B5B1D0A3E6400C07A3C /* ViewController.swift in Sources */,
+				D9F39B5B1D0A3E6400C07A3C /* EmailLoginViewController.swift in Sources */,
 				D9F39B591D0A3E6400C07A3C /* AppDelegate.swift in Sources */,
+				D9F39B8C1D0A461600C07A3C /* FacebookLoginViewController.swift in Sources */,
+				D9F39B8E1D0A462300C07A3C /* TwitterLoginViewController.swift in Sources */,
+				D9F39B921D0A466100C07A3C /* MainMenuViewController.swift in Sources */,
 				D9F39B611D0A3E6400C07A3C /* DemoFullLogin.xcdatamodeld in Sources */,
+				D9F39B901D0A463300C07A3C /* GoogleLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
